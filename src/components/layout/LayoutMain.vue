@@ -17,6 +17,12 @@
                 exact-active-class="bg-gray-900 text-white"
                 >Home</router-link
               >
+              <router-link
+                to="/anime"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                exact-active-class="bg-gray-900 text-white"
+                >Anime</router-link
+              >
             </div>
           </div>
         </div>
@@ -27,5 +33,4 @@
     <router-view />
   </main>
 </template>
-
 <script setup></script>
